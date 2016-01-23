@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<table name= "parti">
+<struct>
+<id type="text" contrainte="primary key"/>
+<nom type="text" contrainte=""/>
+</struct>
+<record>
+<id type="text">'00A'</id>
+<nom type="text">'UPC'</nom>
+</record>
+<record>
+<id type="text">'00B'</id>
+<nom type="text">'ADF-RDA'</nom>
+</record>
+<record>
+<id type="text">'00C'</id>
+<nom type="text">'CDP'</nom>
+</record>
+<record>
+<id type="text">'00D'</id>
+<nom type="text">'PAREN'</nom>
+</record>
+</table>

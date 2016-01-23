@@ -1,0 +1,8 @@
+  #!/bin/bash                                                 
+                                               
+                    
+                       bison -d syntaxe.y
+                       flex -i lexique.l
+                       gcc  -c -g lex.yy.c
+                       gcc syntaxe.tab.c lex.yy.o -ly -lfl -I/usr/include/libxml2 -lxml2
+                       ./a.out

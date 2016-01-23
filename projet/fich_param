@@ -1,0 +1,7 @@
+create table test2(id integer primary key,nom text);
+create table test3(code text primary key,sexe boolean);
+insert into test2 values(1,'Mimi');
+insert into test2 values(2,'Coucou');
+insert into test3 values('00A',0);
+insert into test3 values('00B',1);
+exit;

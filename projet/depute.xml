@@ -1,0 +1,35 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<table name= "depute">
+<struct>
+<id type="text" contrainte="primary key"/>
+<nom type="text" contrainte=""/>
+<prenom type="text" contrainte=""/>
+<sexe type="boolean" contrainte=""/>
+<id_parti type="textre" contrainte=""/>
+<id_region type="integerre" contrainte=""/>
+</struct>
+<record>
+<id type="text">'001'</id>
+<nom type="text">'LOUE'</nom>
+<prenom type="text">'B Arnaud'</prenom>
+<sexe type="boolean">1</sexe>
+<id_parti type="textre">'00A'</id_parti>
+<id_region type="integerre">2</id_region>
+</record>
+<record>
+<id type="text">'002'</id>
+<nom type="text">'OUEDRAOGO'</nom>
+<prenom type="text">'Pascal'</prenom>
+<sexe type="boolean">1</sexe>
+<id_parti type="textre">'00B'</id_parti>
+<id_region type="integerre">1</id_region>
+</record>
+<record>
+<id type="text">'003'</id>
+<nom type="text">'KIMA'</nom>
+<prenom type="text">'Franck'</prenom>
+<sexe type="boolean">1</sexe>
+<id_parti type="textre">'00C'</id_parti>
+<id_region type="integerre">3</id_region>
+</record>
+</table>

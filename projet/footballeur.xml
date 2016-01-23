@@ -1,0 +1,63 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<table name= "footballeur">
+<struct>
+<code type="text" contrainte="primary key"/>
+<nom type="text" contrainte=""/>
+<nationalite type="text" contrainte=""/>
+</struct>
+<record>
+<code type="text">'00A'</code>
+<nom type="text">'MESSI'</nom>
+<nationalite type="text">'Argentin'</nationalite>
+</record>
+<record>
+<code type="text">'00B'</code>
+<nom type="text">'INIESTA'</nom>
+<nationalite type="text">'Espagnol'</nationalite>
+</record>
+<record>
+<code type="text">'00C'</code>
+<nom type="text">'DROGBA'</nom>
+<nationalite type="text">'Ivorien'</nationalite>
+</record>
+<record>
+<code type="text">'00D'</code>
+<nom type="text">'XAVI'</nom>
+<nationalite type="text">'Espagnol'</nationalite>
+</record>
+<record>
+<code type="text">'00E'</code>
+<nom type="text">'ALBA'</nom>
+<nationalite type="text">'Espagnol'</nationalite>
+</record>
+<record>
+<code type="text">'00F'</code>
+<nom type="text">'PIQUE'</nom>
+<nationalite type="text">'Espagnol'</nationalite>
+</record>
+<record>
+<code type="text">'00G'</code>
+<nom type="text">'PEDRO'</nom>
+<nationalite type="text">'Espagnol'</nationalite>
+</record>
+<record>
+<code type="text">'00H'</code>
+<nom type="text">'RAMIRES'</nom>
+<nationalite type="text">'Bresilien'</nationalite>
+</record>
+<record>
+<code type="text">'008'</code>
+<nom type="text">'Salomon KALOU'</nom>
+<nationalite type="text">'Invorien'</nationalite>
+</record>
+<record>
+<code type="text">'0012'</code>
+<nom type="text">'Ronaldo'</nom>
+<nationalite type="text">'Portuguai'</nationalite>
+</record>
+<record>
+<code type="text">'00X'</code>
+<nom type="text">'NEYMAR'</nom>
+<nationalite type="text">'Bresilien'</nationalite>
+</record>
+</table>

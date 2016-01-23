@@ -1,0 +1,14 @@
+create table parti(id text primary key,nom text);
+create table region(id integer primary key,nom text);
+create table depute(id text primary key,nom text,prenom text,sexe boolean,id_parti text references parti(id),id_region integer references region(id));
+insert into parti values('00A','UPC');
+insert into parti values('00B','ADF-RDA');
+insert into parti values('00C','CDP');
+insert into parti values('00D','PAREN');
+insert into region values(1,'Centre');
+insert into region values(2,'Hauts-Bassins');
+insert into region values(3,'Centre-Sud');
+insert into depute values('001','LOUE','B Arnaud',1,'00A',2);
+insert into depute values('002','OUEDRAOGO','Pascal',1,'00B',1);
+insert into depute values('003','KIMA','Franck',1,'00C',3);
+exit;

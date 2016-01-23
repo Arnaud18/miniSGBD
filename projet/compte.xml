@@ -1,0 +1,27 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<table name= "compte">
+<struct>
+<id type="text" contrainte="primary key"/>
+<solde type="number" contrainte=""/>
+</struct>
+<record>
+<id type="text">'00A'</id>
+<solde type="number">150000.00</solde>
+</record>
+<record>
+<id type="text">'00B'</id>
+<solde type="number">-25000.00</solde>
+</record>
+<record>
+<id type="text">'00C'</id>
+<solde type="number">-20000.00</solde>
+</record>
+<record>
+<id type="text">'00D'</id>
+<solde type="number">0.0</solde>
+</record>
+<record>
+<id type="text">'00E'</id>
+<solde type="number">30000000</solde>
+</record>
+</table>

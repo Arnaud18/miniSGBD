@@ -1,0 +1,67 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<table name= "etu">
+<struct>
+<matri type="integer" contrainte="primary key"/>
+<nom type="text" contrainte=""/>
+<prenom type="text" contrainte=""/>
+<sexe type="boolean" contrainte=""/>
+<age type="integer" contrainte=""/>
+<id_ecole type="integer" contrainte="foreign key references ecole(id)"/>
+</struct>
+<record>
+<matri type="integer">1</matri>
+<nom type="text">'LOUE'</nom>
+<prenom type="text">'Arnaud'</prenom>
+<sexe type="boolean">1</sexe>
+<age type="integer">22</age>
+<id_ecole type="integer">1</id_ecole>
+</record>
+<record>
+<matri type="integer">2</matri>
+<nom type="text">'OUEDRAOGO'</nom>
+<prenom type="text">'Pascal'</prenom>
+<sexe type="boolean">1</sexe>
+<age type="integer">24</age>
+<id_ecole type="integer">1</id_ecole>
+</record>
+<record>
+<matri type="integer">3</matri>
+<nom type="text">'KIMA'</nom>
+<prenom type="text">'Franck'</prenom>
+<sexe type="boolean">1</sexe>
+<age type="integer">22</age>
+<id_ecole type="integer">1</id_ecole>
+</record>
+<record>
+<matri type="integer">4</matri>
+<nom type="text">'BAYILI'</nom>
+<prenom type="text">'Fabrice'</prenom>
+<sexe type="boolean">1</sexe>
+<age type="integer">23</age>
+<id_ecole type="integer">3</id_ecole>
+</record>
+<record>
+<matri type="integer">5</matri>
+<nom type="text">'SAVADOGO'</nom>
+<prenom type="text">'MADINA'</prenom>
+<sexe type="boolean">0</sexe>
+<age type="integer">24</age>
+<id_ecole type="integer">4</id_ecole>
+</record>
+<record>
+<matri type="integer">6</matri>
+<nom type="text">'SENI'</nom>
+<prenom type="text">'Armel'</prenom>
+<sexe type="boolean">1</sexe>
+<age type="integer">23</age>
+<id_ecole type="integer">2</id_ecole>
+</record>
+<record>
+<matri type="integer">7</matri>
+<nom type="text">'NANA'</nom>
+<prenom type="text">'Sonia'</prenom>
+<sexe type="boolean">0</sexe>
+<age type="integer">23</age>
+<id_ecole type="integer">2</id_ecole>
+</record>
+</table>

@@ -1,0 +1,19 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<table name= "region">
+<struct>
+<id type="integer" contrainte="primary key"/>
+<nom type="text" contrainte=""/>
+</struct>
+<record>
+<id type="integer">1</id>
+<nom type="text">'Centre'</nom>
+</record>
+<record>
+<id type="integer">2</id>
+<nom type="text">'Hauts-Bassins'</nom>
+</record>
+<record>
+<id type="integer">3</id>
+<nom type="text">'Centre-Sud'</nom>
+</record>
+</table>

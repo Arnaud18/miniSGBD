@@ -1,0 +1,39 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<table name= "test">
+<struct>
+<id type="integer" contrainte="primary key"/>
+<id_parti type="text" contrainte="foreign key references parti(id)"/>
+</struct>
+<record>
+<id type="integer">1</id>
+<id_parti type="text">'00A'</id_parti>
+</record>
+<record>
+<id type="integer">2</id>
+<id_parti type="text">'00A'</id_parti>
+</record>
+<record>
+<id type="integer">3</id>
+<id_parti type="text">'00C'</id_parti>
+</record>
+<record>
+<id type="integer">4</id>
+<id_parti type="text">'00D'</id_parti>
+</record>
+<record>
+<id type="integer">5</id>
+<id_parti type="text">'00A'</id_parti>
+</record>
+<record>
+<id type="integer">6</id>
+<id_parti type="text">'00C'</id_parti>
+</record>
+<record>
+<id type="integer">12</id>
+<id_parti type="text">'00B'</id_parti>
+</record>
+<record>
+<id type="integer">13</id>
+<id_parti type="text">'00C'</id_parti>
+</record>
+</table>

@@ -542,7 +542,7 @@ for(i=0;i<nb;i++)
 	printf("\n");
 
     }
-
+}
 
 
 ///fonction d'extraction d'un  tuple dans un  fichier a partir d'une position donnee
